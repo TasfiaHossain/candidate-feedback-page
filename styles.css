@@ -86,6 +86,8 @@ html,body{
     float: left;
     background-color: #f6f6f8;
     z-index: 1;
+    overflow: scroll;
+
   }
 
   .parentdiv {
@@ -182,3 +184,134 @@ html,body{
   background-color: black;
   left:-140px;
 }
+
+/* .btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+} */
+/* 
+.btn1 {
+  background-color: #ff8f1c;
+  border:black;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+} */
+
+/* Darker background on mouse-over */
+/* .btn1:hover {
+  background-color:#FF4500;
+}
+
+.btn2 {
+  background-color: #ff8f1c;
+  border:black;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+} */
+
+/* Darker background on mouse-over */
+/* .btn2:hover {
+  background-color:#FF4500;
+} */
+
+.btn3 {
+  background-color: #00bb50;
+  border:black;
+  border-radius: 12px;
+  /* padding: 20px 20px; */
+  width: 220px;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Darker background on mouse-over */
+.btn3:hover {
+  background-color:#00ad4b;
+}
+
+.inp {
+  text-align: left;
+}
+
+.hd {
+
+  margin-top:40px;
+  text-decoration:none;
+  display:inline-block;}
+
+
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.5s;
+    position: relative;
+    z-index: 10;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.dropbtn {
+    background-color: #e9b4a5;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f4633a;}
