@@ -1,123 +1,123 @@
 html,body{
-    background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: visible;
-    margin: 50px 0 0 17px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: visible;
+  margin: 50px 0 0 17px;
 }
 *{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav{
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 25px 0 25px;
-    background-color: #fff;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 25px;
+  background-color: #fff;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10);
 }
 
 .nav .links a{
-    margin-right: 25px;
-    font-size: 19px;
-    font-weight: 600;
-    color: #000;
+  margin-right: 25px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #000;
 }
 
 .nav .links .mainlink{
-    color: #e0501b;
+  color: #e0501b;
 }
 .landing{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10vw 0 10vw;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
 }
 
 .landingText h1{
-    font-size: 40px;
-    margin: 0;
+  font-size: 40px;
+  margin: 0;
 
 }
 .landingText h2{
-   font-size: 55px;
-   margin: 0;
+ font-size: 55px;
+ margin: 0;
 }
 
 .FAQ {
 
-    position: relative;
-    bottom: 13px;
+  position: relative;
+  bottom: 13px;
 }
 
 .div1 {
-    width: 480px;
-    height: 615px;
-    border: 2px solid black;
-    text-align: center;
-    padding-top: 50px;
-    margin-right: 100px;
-    position: absolute;
-  }
+  width: 480px;
+  height: 615px;
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 50px;
+  margin-right: 100px;
+  position: absolute;
+}
 
-  .firstdiv {
-    width: 430px;
-    height: 665px;
-    border: 2px solid black;
-    text-align: center;
-    float: left;
-    background-color: #f6f6f8;
-  }
+.firstdiv {
+  width: 430px;
+  height: 665px;
+  border: 2px solid black;
+  text-align: center;
+  float: left;
+  background-color: #f6f6f8;
+}
 
-  .seconddiv {
-    width: 840px;
-    height: 665px;
-    border: 2px solid black;
-    text-align: center;
-    float: left;
-    background-color: #f6f6f8;
-    z-index: 1;
-    overflow: scroll;
+.seconddiv {
+  width: 840px;
+  height: 665px;
+  border: 2px solid black;
+  text-align: center;
+  float: left;
+  background-color: #f6f6f8;
+  z-index: 1;
+  overflow: scroll;
 
-  }
+}
 
-  .parentdiv {
-    display: flex;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
-  }
+.parentdiv {
+  display: flex;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
 
-  .name {
-    position: relative;
-    top: -10px;
-    font-size: 30px;
-  }
+.name {
+  position: relative;
+  top: -10px;
+  font-size: 30px;
+}
 
-  .apply {
-    position: relative;
-    top: -25px;
-  }
+.apply {
+  position: relative;
+  top: -25px;
+}
 
-  .con {
-    text-decoration: none;
-    color: black;
-    position: relative;
-    top:-10px;
-    text-align: center;
-    padding-left: 20px;
-  }
+.con {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top:-10px;
+  text-align: center;
+  padding-left: 20px;
+}
 
-  .container {
-    width: 100%;
+.container {
+  width: 100%;
 }
 
 /* SECOND BOX */
@@ -125,149 +125,149 @@ html,body{
 /* Tracking BAR */
 
 .container {
-  width: 100%;
-  margin-left: -20px;
+width: 100%;
+margin-left: -20px;
 
 }
 
 .progressbar {
-  counter-reset: step;
+counter-reset: step;
 }
 
 .progressbar li {
-  list-style-type: none;
-  float: left;
-  width: 33.33%;
-  position: relative;
-  text-align: center;
+list-style-type: none;
+float: left;
+width: 33.33%;
+position: relative;
+text-align: center;
 
 }
 
 .progressbar li:before {
-  content: counter(step);
-  counter-increment: step;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border: 1px solid #ddd;
-  display: block;
-  text-align: center;
-  margin: 0 auto 10px auto;
-  border-radius: 50%;
-  background-color: white;
+content: counter(step);
+counter-increment: step;
+width: 30px;
+height: 30px;
+line-height: 30px;
+border: 1px solid #ddd;
+display: block;
+text-align: center;
+margin: 0 auto 10px auto;
+border-radius: 50%;
+background-color: white;
 }
 
 .progressbar li:after {
-  content: '';
-  position: absolute;
-  width:200%;
-  height: 2px;
-  background-color: #ddd;
-  top: 15px;
-  left: 1000px;
-  z-index: -1;
+content: '';
+position: absolute;
+width:200%;
+height: 2px;
+background-color: #ddd;
+top: 15px;
+left: 1000px;
+z-index: -1;
 }
 
 .progressbar li:first-child:after {
-  content: none;
+content: none;
 }
 
 .progressbar li.active {
-  color: black;
+color: black;
 }
 
 .progressbar li.active::before {
-  border-color: black;
+border-color: black;
 }
 
 .progressbar li.active + li:after {
-  background-color: black;
-  left:-140px;
+background-color: black;
+left:-140px;
 }
 
 .btn3 {
-  background-color: #00bb50;
-  border:black;
-  border-radius: 12px;
-  /* padding: 20px 20px; */
-  width: 246px;
-  height: 60px;
-  font-size: 24px;
-  color: white;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  /* margin-top: 30px; */
+background-color: #00bb50;
+border:black;
+border-radius: 12px;
+/* padding: 20px 20px; */
+width: 246px;
+height: 60px;
+font-size: 24px;
+color: white;
+cursor: pointer;
+font-family: 'Roboto', sans-serif;
+/* margin-top: 30px; */
 }
 
 /* Darker background on mouse-over */
 .btn3:hover {
-  background-color:#00ad4b;
+background-color:#00ad4b;
 }
 
 .inp {
-  text-align: left;
+text-align: left;
 }
 
 .hd {
 
-  margin-top:40px;
-  text-decoration:none;
-  display:inline-block;}
+margin-top:40px;
+text-decoration:none;
+display:inline-block;}
 
 
-  .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.5s;
-    position: relative;
-    z-index: 10;
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 10;
 }
 
 .active, .accordion:hover {
-    background-color: #ccc; 
+  background-color: #ccc; 
 }
 
 .panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
 }
 
 .dropbtn {
-    background-color: #fdc0af;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+  background-color: #fdc0af;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
